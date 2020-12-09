@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/round_account_box_light_green_300_24dp"
+            android:ems="10"
+            android:hint="Type your Full Name"
+            android:inputType="textPersonName" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        style="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        app:srcCompat="@drawable/round_add_alert_red_a700_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="307dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="50dp"
+        android:text="The above paragraph is a simple example of what a basic paragraph consists.
+        You have the topic sentence to introduce the person to what you’re talking about,
+        and then you have the body of the paragraph, which features the facts and information you have about your topic.
+         After that all you have to do is write a conclusion,
+         which is just restating your topic and the paragraph is finished."
+        android:textColor="@color/red" />
+</LinearLayout>
